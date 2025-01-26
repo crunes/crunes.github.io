@@ -58,6 +58,10 @@ body {
 	font-size: 48px;
 	color: var(--dark-green);
 	line-height: 1em;
+
+	@media (min-width: 650px) {
+		font-size: 72px;
+	}
 }
 
 .heading--launch {
