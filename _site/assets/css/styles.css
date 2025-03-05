@@ -128,7 +128,7 @@ a.menu-option__link {
 
 .heading {
 	font-family: "Milky Walky", serif;
-	font-size: 54px;
+	font-size: 64px;
 	color: var(--color-cream);
 	text-align: left;
 
@@ -138,6 +138,7 @@ a.menu-option__link {
 }
 
 .heading--launch {
+	color: var(--color-dark-green);
 	text-align: center;
 	width: 50vw;
 
@@ -236,6 +237,10 @@ a {
 			color: var(--color-white);
 		}
 	}
+}
+
+.clips {
+	display: grid;
 }
 
 @keyframes cursor-blink {
